@@ -473,7 +473,7 @@ const Portfolio = () => {
             <section id="impact" className="py-24 bg-slate-50 relative overflow-hidden">
                 <div className="container mx-auto px-6">
                     <div className="flex flex-col md:flex-row gap-12 md:gap-20 items-start">
-                        <div className="md:w-1/3 sticky top-32 z-10 bg-slate-50/90 backdrop-blur-sm p-4 rounded-xl">
+                        <div className="md:w-1/3 md:sticky top-32 z-10 bg-slate-50/90 backdrop-blur-sm p-4 rounded-xl">
                             <h2 className="text-4xl font-bold text-slate-900 mb-6">A Legacy of <br /><span className="text-blue-900">Impact.</span></h2>
                             <p className="text-slate-600 mb-8">
                                 From government initiatives to private university excellence, my career has been defined by large-scale transformation in Learning & Development.
@@ -481,7 +481,9 @@ const Portfolio = () => {
                             <a
                                 href="/Balaji_HK_Resume.pdf"
                                 download="Balaji_HK_Resume.pdf"
-                                className="text-blue-900 font-bold flex items-center gap-2 hover:gap-4 transition-all w-fit cursor-pointer"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-900 font-bold flex items-center justify-center md:justify-start gap-2 hover:gap-4 transition-all w-full md:w-fit cursor-pointer bg-white md:bg-transparent p-4 md:p-0 rounded-lg shadow-sm md:shadow-none border md:border-none border-slate-200"
                             >
                                 Download Full Profile <ChevronRight size={18} />
                             </a>
